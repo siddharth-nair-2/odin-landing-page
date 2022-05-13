@@ -52,8 +52,9 @@ body {
     background-color: #3882F6;
     align-self: flex-start;
     padding: 6px 24px;
-    font-weight: bold;
+    font-size: 16px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .right-items {
@@ -62,4 +63,43 @@ body {
     align-self: center;
     padding: 105px;
     margin-left: 135px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.information {
+    padding: 10px 0px 120px 0px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.img {
+    border: 5px solid #3882F6;
+    border-radius: 16px; 
+    width: 180px;
+    height: 180px;
+}
+.text {
+    max-width: 200px;
+    text-align: center;
+    font-size: 18px;
+    color: #313131;
 }
