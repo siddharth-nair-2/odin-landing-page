@@ -9,7 +9,7 @@ body {
     padding: 20px ;
 }
 
-.header-logo {
+.header-logo, .action-call {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
@@ -21,7 +21,7 @@ body {
     gap: 30px;
 }
 
-.header-link, .heading-subtext {
+.header-link, .heading-subtext, .action-call-subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -55,6 +55,7 @@ body {
     font-size: 16px;
     color: #F9FAF8;
     font-weight: bold;
+    border-color: white;
 }
 
 .right-items {
@@ -125,5 +126,17 @@ body {
     text-align: right;
     font-weight: bold;
     font-size: 24px;
-    padding-left: 200px;
+    padding-left: 600px;
+}
+.call-box {
+    padding: 0px 180px;
+}
+.blue-box {
+    background-color:#3882F6;
+    margin: 150px;
+    display: flex;
+    gap: 150px;
+    padding: 50px 150px;
+    justify-content: center;
+    border-radius: 16px;
 }
