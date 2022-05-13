@@ -1,9 +1,65 @@
 body {
     margin: 0;
-    padding: 0;
 }
 
 .header {
     background-color: #1F2937;
     display: flex;
+    justify-content: space-around;
+    padding: 20px ;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.header-link, .heading-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+    gap: 150px;
+}
+
+.left-items {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 10px;
+}
+
+.heading-text {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.sign-up {
+    border-radius: 8px;
+    background-color: #3882F6;
+    align-self: flex-start;
+    padding: 6px 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.right-items {
+    background-color: rgb(82, 80, 80);
+    color: white;
+    align-self: center;
+    padding: 105px;
+    margin-left: 135px;
 }
