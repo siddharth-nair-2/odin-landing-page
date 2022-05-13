@@ -21,7 +21,7 @@ body {
     gap: 30px;
 }
 
-.header-link, .heading-subtext, .action-call-subtext {
+.header-link, .heading-subtext, .action-call-subtext, .copyright {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -139,4 +139,10 @@ body {
     padding: 50px 150px;
     justify-content: center;
     border-radius: 16px;
+}
+
+.copyright {
+    padding: 50px;
+    background-color: #1F2937;
+    text-align: center;
 }
